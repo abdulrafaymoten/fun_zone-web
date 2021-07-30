@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	}
+
+.logo{
+	text-align:center;
+	background-color:rgba(0,0,153,1);
+	margin:0px;
+	}
+	/*
+nav a{
+	 color:rgba(0,0,0,1);
+	 text-decoration:none;
+	 padding:10px;
+	 margin:5px;
+	 font-family:Verdana, Geneva, sans-serif;
+	 font-weight:bold;
+	 background-color:rgba(102,102,102,1);
+}
+nav a:hover{
+	background-color:rgba(102,102,102,1);
+	color:rgba(204,204,204,1);
+	border-radius:50px;
+}
+*/
+marquee{
+	background-color:rgba(0,0,0,1);
+	color:rgba(255,255,255,1);
+	padding:10px;
+	font-weight:bold;
+	}
+		
+ /* Make the image fully responsive */
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .contact{
+	background-image:url(../images/bg-11.jpg);
+	background-size:cover;
+	padding:40px;
+	}
+.contact-h{
+	color:rgba(255,255,255,1);
+	font-size:xx-large;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+	}
+.contact-form{
+	text-align:center;
+	}
+.txtbox{
+	padding:10px;
+	width:80%;
+	margin-bottom:20px;
+	background-color:rgba(0,0,0,0.7);
+	border-style:dashed;
+	border-width:thin;
+	border-radius:10px;
+	color:rgba(255,255,255,1);
+
+	}
+.txtarea{
+	padding:10px;
+	width:80%;
+	height:200px;
+	margin-bottom:20px;
+	background-color:rgba(0,0,0,0.7);
+	border-style:dashed;
+	border-width:thin;
+	border-radius:10px;
+	color:rgba(255,255,255,1);}
+	
+.privacy{
+	background-image:url(../images/privacy%20img.jpg);
+	text-align:justify;
+	padding:40px;
+	}
+	
+
+	
+footer {
+    border-top: 5px solid #CDB380;
+    background: #033649 none repeat scroll 0% 0%;
+    padding-top: 30px;
+    margin-top: 60px;
+    clear: both;
+    color: #AAA;
+    display: block;
+}
+
+#footer .widgettitle {
+    margin: 0px;
+    padding: 0px 0px 15px;
+    border-bottom: medium none;
+}
+#footer h4 {
+    color: #FFF;
+}
+
+#footer ul {
+    list-style: outside none none;
+}
+
+#footer li {
+    padding: 7px 0px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+    margin: 0px;
+}
+
+#footer li a {
+    color: #DDD;
+}
+
+#sub-floor {
+    color: #AAA;
+    background: #031634 none repeat scroll 0% 0%;
+    padding: 10px 0px;
+}
+
